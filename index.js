@@ -5,9 +5,9 @@
 // ✓ appends the person the end of the line if there are already people on it
 // ✓ properly handles multiple people being added
 
-const takeANumber = function(arr, newName) {
-  arr.push(newName);
-  return `Welcome, ${newName}. You are number ${arr.indexOf(newName) + 1} in line.`;
+const takeANumber = function(arr) {
+  arr.push(num);
+  return `Welcome. You are number ${arr.indexOf(num) + 1} in line.`;
 }
 
 // const takeANumber = function(arr, newName) {
