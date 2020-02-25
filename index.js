@@ -7,7 +7,7 @@
 
 const takeANumber = function(arr) {
   let num = 0;
-  num + 1;
+  num += 1;
   arr.push(num);
   return `Welcome. You are number ${arr.indexOf(num) + 1} in line.`;
 }
