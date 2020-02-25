@@ -9,7 +9,7 @@ const takeANumber = function(arr) {
   let num = 0;
   num += 1;
   arr.push(num);
-  return `Welcome. You are number ${num + 1} in line.`;
+  return `Welcome. You are number ${num} in line.`;
 }
 
 // const takeANumber = function(arr, newName) {
