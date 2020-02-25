@@ -5,8 +5,9 @@
 // ✓ appends the person the end of the line if there are already people on it
 // ✓ properly handles multiple people being added
 
+let num = 0;
+
 const takeANumber = function(arr) {
-  let num = 0;
   num += 1;
   arr.push(num);
   return `Welcome. You are number ${num} in line.`;
