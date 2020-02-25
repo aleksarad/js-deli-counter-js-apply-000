@@ -6,7 +6,8 @@
 // ✓ properly handles multiple people being added
 
 const takeANumber = function(arr) {
-  arr.push(num);
+  let num = 0;
+  arr.push(num++);
   return `Welcome. You are number ${arr.indexOf(num) + 1} in line.`;
 }
 
